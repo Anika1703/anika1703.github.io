@@ -90,19 +90,19 @@
 
 </div>
 
-<div class="filters" role="group" aria-label="Filter research projects"><button type="button" data-filter="all" aria-pressed="true">All work <span>5</span></button><button type="button" data-filter="hci" aria-pressed="false">HCI & fairness</button><button type="button" data-filter="language" aria-pressed="false">Language & learning</button><button type="button" data-filter="ongoing" aria-pressed="false">In progress</button></div>
+<div class="filters" role="group" aria-label="Filter research projects"><button type="button" data-filter="all" aria-pressed="true">All work <span>6</span></button><button type="button" data-filter="hci" aria-pressed="false">HCI & fairness</button><button type="button" data-filter="language" aria-pressed="false">Language & learning</button><button type="button" data-filter="ongoing" aria-pressed="false">In progress</button></div>
 
 <p id="filter-status" class="sr-only" aria-live="polite"></p>
 
-<div class="papers"><article id="coherence" class="paper" data-category="hci"><a class="figure-link" href="assets/abortion_stigma.webp" data-figure data-title="Behavioral Coherence: A Method for Sensitive-Domain LLM Evaluation"><img src="assets/abortion_stigma.webp" alt="Behavioral coherence evaluation pipeline: instrument anchoring, persona construction, five-model administration, signal extraction, expert review, and design guidance." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">HCI · EVALUATION</span><span class="status ">Under review · CHI 2027</span></div>
+<div class="papers"><article id="coherence" class="paper" data-category="hci"><a class="figure-link" href="assets/abortion_stigma.webp" data-figure data-title="Behavioral Coherence: A Method for Sensitive-Domain LLM Evaluation"><img src="assets/abortion_stigma.webp" alt="Behavioral coherence evaluation pipeline: instrument anchoring, persona construction, five-model administration, signal extraction, expert review, and design guidance." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">HCI · EVALUATION</span><span class="status ">Preprint · arXiv</span></div>
 
 <h3>Behavioral Coherence: A Method for Sensitive-Domain LLM Evaluation</h3>
 
 <p class="authors"><b>Anika Sharma</b>, Malavika Mampally, Chidaksh Ravuru, Kandyce Brennan, Neil Gaikwad</p>
 
-<p>Combined validated psychometric measures, controlled demographic personas, and expert review to surface latent social assumptions in reproductive-health AI.</p>
+<p>Can a model give a reasonable answer while repeatedly making the same assumptions about people’s lives? I used a validated abortion-stigma scale to compare responses from five LLMs across 627 personas, then worked with reproductive-health experts to interpret the patterns.</p>
 
-<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Across five LLMs, surfaced recurring defaults around judgment, secrecy, and support.</mark></p>
+<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Models often assumed people would face judgment and keep their experiences secret, even when their circumstances differed.</mark></p>
 
 <div class="paper-links"><a class="paper-link" href="https://arxiv.org/abs/2512.13142">arXiv ↗</a><a class="paper-link" href="https://arxiv.org/pdf/2512.13142">PDF ↗</a></div>
 
@@ -110,15 +110,15 @@
 
 </article>
 
-<article id="sound-symbolism" class="paper" data-category="language"><a class="figure-link" href="assets/sound_symbolism.webp" data-figure data-title="Adversarially Probing Cross-Family Sound Symbolism in 27 Languages"><img src="assets/sound_symbolism.webp" alt="Sound symbolism architecture with a frozen IPA encoder, shared projection, size classifier, and a gradient-reversal adversary for suppressing language-related signals." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">LANGUAGE · REPRESENTATION LEARNING</span><span class="status oral">EMNLP 2026 Main · Oral</span></div>
+<article id="sound-symbolism" class="paper" data-category="language"><a class="figure-link" href="assets/sound_symbolism.webp" data-figure data-title="Size Sound Symbolism Survives Genealogy Across 27 Languages"><img src="assets/sound_symbolism.webp" alt="Sound symbolism model with an IPA encoder, size classifier, and a gradient-reversal adversary that discourages reliance on language-related cues." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">LANGUAGE · REPRESENTATION LEARNING</span><span class="status oral">EMNLP 2026 Main · Oral</span></div>
 
-<h3>Adversarially Probing Cross-Family Sound Symbolism in 27 Languages</h3>
+<h3>Size Sound Symbolism Survives Genealogy Across 27 Languages</h3>
 
-<p class="authors"><b>Anika Sharma</b>, Tianyi Niu, Emma Wrenn, Shashank Srivastava</p>
+<p class="authors"><b>Anika Sharma</b>, Emma Wrenn, Tianyi Niu, Shashank Srivastava</p>
 
-<p>Built a 27-language dataset of 810 adjectives and a cross-lingual ML framework combining Transformer pretraining, leave-one-language-out transfer, and gradient-reversal adversarial learning.</p>
+<p>Do word sounds carry the same meaning across unrelated languages, or does shared ancestry explain the pattern? I tested size sound symbolism across 27 languages using cross-language transfer and adversarial representation learning adapted from domain adaptation.</p>
 
-<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Probes sound–meaning associations while suppressing genealogical and language-specific signals.</mark></p>
+<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>A small, mostly vowel-driven size association persisted even when models were discouraged from relying on language identity.</mark></p>
 
 <div class="paper-links">
   <a class="paper-link" href="assets/sound_symbolism_final_paper.pdf">PDF ↗</a>
@@ -127,13 +127,27 @@
 
 </article>
 
+<article id="gender" class="paper" data-category="hci"><a class="figure-link" href="assets/WaW-main-figure.webp" data-figure data-title="Language Models Show a ‘Women-Are-Wonderful’ Effect in Blame Attribution That is Not Just Leniency"><img src="assets/WaW-main-figure.webp" alt="Matched gender counterfactuals separating the gender of the person being judged from the gender of the person affected." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">SOCIAL NLP · GENDER BIAS</span><span class="status ">First author · Under review at ARR</span></div>
+
+<h3>Language Models Show a ‘Women-Are-Wonderful’ Effect in Blame Attribution That is Not Just Leniency</h3>
+
+<p>Gender bias doesn’t always look like hostility. We asked whether LLMs judge the same interpersonal conflict differently depending on who is involved. I created matched gender variants of 11,270 Reddit conflicts to separate the gender of the person being judged from the person affected.</p>
+
+<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Models were somewhat more forgiving when judging women, but much harsher when the same behavior affected a woman.</mark></p>
+
+<div class="paper-links"><a class="paper-link" href="https://arxiv.org/abs/2610.41116">arXiv ↗</a></div>
+
+</div>
+
+</article>
+
 <article id="care" class="paper" data-category="hci"><a class="figure-link" href="assets/srh.webp" data-figure data-title="CARE: A Capability Framework for Reproductive Equity in Human-AI Interaction"><img src="assets/srh.webp" alt="CARE connects resources, conversion factors, capabilities, functionings, and wellbeing through normative design and evaluation lenses." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">HCI · REPRODUCTIVE EQUITY</span><span class="status ">CHI 2026 Extended Abstract + Preprint</span></div>
 
 <h3>CARE: A Capability Framework for Reproductive Equity in Human-AI Interaction</h3>
 
-<p>Developed a normative framework grounded in Sen’s capability approach to evaluate how reproductive-health technologies expand or constrain users’ freedoms.</p>
+<p>A reproductive-health chatbot might give accurate advice, but can someone check it, understand it, or use it? We drew on the capability approach to evaluate these tools with health literacy, stigma, and barriers to care in mind.</p>
 
-<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Identifies source opacity and response rigidity as barriers to informed, autonomous decisions.</mark></p>
+<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Missing sources, medical jargon, and overly long or rigid answers can make even accurate information hard to question or use.</mark></p>
 
 <div class="paper-links"><a class="paper-link" href="https://dl.acm.org/doi/10.1145/3772363.3799046">Extended abstract ↗</a><a class="paper-link" href="https://arxiv.org/abs/2603.20511">Long paper ↗</a></div>
 
@@ -155,29 +169,30 @@
 
 </article>
 
-<article id="gender" class="paper" data-category="hci"><a class="figure-link" href="assets/WaW-main-figure.webp" data-figure data-title="Gender Bias in LLM Social Judgment"><img src="assets/WaW-main-figure.webp" alt="Gender-counterfactual evaluation of AITA posts with MM, MF, FM and FF variants, separating protagonist and counterpart gender effects under different cultural prompting conditions." loading="lazy"><span class="figure-hint"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg> View figure</span></a><div class="paper-content"><div class="paper-meta"><span class="topic">SOCIAL NLP · GENDER & CULTURE</span><span class="status ">First author · Under review at ARR</span></div>
+<article id="fairness-education" class="paper ongoing" data-category="ongoing hci"><div class="project-margin"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 6-5 6 5 6m10-12 5 6-5 6m-3-15-4 18"/></svg><span>IN PROGRESS</span></div>
 
-<h3>Gender Bias in LLM Social Judgment</h3>
+<div class="paper-content"><div class="paper-meta"><span class="topic">INTERACTIVE SYSTEMS · AI EDUCATION</span><span class="status">In development</span></div>
 
-<p>Designed a gender-counterfactual evaluation across four LLMs and 19 cultural personas, separating leniency toward female protagonists from protectiveness toward female counterparts.</p>
+<h3>EDNA: Interactive AI Fairness Education</h3>
 
-<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Favorable gender bias is driven more consistently by harsher judgments when the affected party is a woman.</mark></p>
+<p>Students can use AI to build an ML model without necessarily understanding why it made certain choices. I’m building EDNA to turn AI-generated code into visual blocks and use Socratic questions to help students examine modeling decisions and fairness tradeoffs.</p>
 
-<div class="paper-links"></div>
+<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Testing whether having students explain their choices to someone else improves how they reason about fairness.</mark></p>
 
 </div>
 
 </article>
 
-<article id="fairness-education" class="paper ongoing" data-category="ongoing hci"><div class="project-margin"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 6-5 6 5 6m10-12 5 6-5 6m-3-15-4 18"/></svg><span>IN PROGRESS</span></div>
 
-<div class="paper-content"><div class="paper-meta"><span class="topic">INTERACTIVE SYSTEMS · AI EDUCATION</span><span class="status">Manuscript in preparation</span></div>
+<article id="ai-voyager" class="paper ongoing" data-category="ongoing hci"><div class="project-margin"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 6-5 6 5 6m10-12 5 6-5 6m-3-15-4 18"/></svg><span>IN PROGRESS</span></div>
 
-<h3>Interactive AI Fairness & Model-Building Education</h3>
+<div class="paper-content"><div class="paper-meta"><span class="topic">HCI · AI POLICY</span><span class="status">Submitted · FAccT</span></div>
 
-<p>Building a platform that combines <strong>AST-based program analysis</strong> and a <strong>Scratch-style visual interface</strong> to expose hidden defaults in AI-generated code. Socratic tutoring guides students through modeling decisions and comparisons of downstream fairness outcomes in high-stakes settings.</p>
+<h3>AI Voyager: Exploring AI Legislation Through Dialogue</h3>
 
-<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>Designed to help students interrogate modeling choices and reason about tradeoffs.</mark></p>
+<p>AI bills are long, technical, and often hard to relate to everyday decisions. We built AI Voyager so people can explore proposed laws through document-grounded conversations between AI agents taking different stakeholder perspectives, and step in to question or redirect the discussion.</p>
+
+<p class="takeaway"><span class="takeaway-marker" aria-hidden="true">↳</span><mark>In our study, participants asked how the bills would work in practice: who they cover, what their rules mean, and how they would be enforced.</mark></p>
 
 </div>
 
@@ -209,7 +224,7 @@
 
 <div><h3>Teaching & mentorship</h3>
 
-<p>Mentored <strong>40+ students</strong> in socially responsible AI research, taught data science, and coach high school VEX Robotics. I also advise SAILea’s student leadership as they take ownership of its platform and programs.</p>
+<p>As a TA for DATA 520, I mentored 40+ students building LLM-based tools for ecological planning in the Indo-Gangetic Plains, in partnership with the U.S. Embassy Kathmandu’s Regional Environment Office. We focused on developing landscaping recommendations that accounted for local environmental and cultural contexts. I've also TA'd upper-level data science courses, coached high-school VEX Robotics, and mentored student developers through SAILea.</p>
 
 </div>
 
@@ -233,11 +248,13 @@
 
 <div><h3>Backstory time: whales</h3>
 
-<p>My interest in research started with whales. I spent a year after high school using machine learning to classify <strong>sperm whale codas</strong> and distinguish different whale dialects. I like to say that I can modestly speculate about what “hello” in whale sounds like: <strong>1 + 1 + 3</strong>.</p>
+<p>My interest in research started with whales. During my gap year after high school, I used machine learning to classify <strong>sperm whale codas</strong> and distinguish different whale dialects. I like to summarize this work as a modest speculation about how to say hello in whale: <strong>1 + 1 + 3</strong>.</p>
 
-<p>I thought petitioning governments could lead to change, and wanted to combine art and technology to draw attention to sentience under the sea and support efforts against grindadráp. So I turned whale codas and dolphin whistles into short musical compositions.</p>
+<p>I later worked on converting whale codas and dolphin whistles into short musical compositions. I wanted to use sound to draw attention to the issues life under the sea faces, particularly <em>grindadráp</em>, the pilot whale and dolphin hunts in the Faroe Islands. In May 2026 alone, <a href="https://www.worldanimalprotection.org/latest/news/faroe-islands-hunts-kill-825-dolphins-and-whales/">825 whales and dolphins were killed</a>, and the Faroese parliament voted to exempt these hunts from animal welfare legislation. I thought combining art and technology might get more people interested in efforts to end the practice.</p>
 
-<p>I also had a brief stint trying to mint the compositions as NFTs alongside artwork of whale eyes (that sounds creepy; I swear it was artistic) to raise funds for an NGO I partnered with. That was a flop. But that’s what got me into CS!</p>
+<p>I also had a little stint trying to mint the compositions as NFTs alongside artwork of whale eyes (that sounds creepy, I swear it was artistic) to raise funds for an NGO I partnered with. That was a flop. But that’s what got me into CS!</p>
+
+<p>I’m still interested in turning animal sounds into music, and one thing on my dream bucket list is to create an interactive exhibition exploring how we relate to other animals and the natural world. If you’re interested in music production, sound art, or building something like this together, feel free to email me!</p>
 
 <div class="paper-links"><a class="paper-link" href="https://community.wolfram.com/groups/-/m/t/2312755">Whale research ↗</a><a class="paper-link" href="https://9a840935-5b32-4b8b-8f8d-15e3d4a7ec4e.filesusr.com/ugd/03f05f_707d997507404f9aa2581c2f2193b687.pdf">Dolphin project ↗</a><a class="paper-link" href="https://soundcloud.com/user-768317288-267085530/ai-whale-song-1-hunting-for-food">Listen to whale music ↗</a></div>
 
